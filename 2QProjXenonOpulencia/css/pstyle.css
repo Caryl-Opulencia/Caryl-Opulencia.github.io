@@ -1,0 +1,435 @@
+body {
+		background-image: url("../images/bgpic.png");
+		background-attachment: scrolled;
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: 1366px 765px;
+		background-color: #ffffde;
+		overflow-x: hidden;
+	}
+
+#whole {
+		width: 1366px;
+		left: 50%;
+		margin-left: -683px;
+		right: 0;
+		position: absolute;
+	}
+#logo {
+		float: left;
+		margin-top: 16px;
+		margin-left: 60px;
+	}
+
+#fish {
+		float: left;
+		margin-top: 35px;
+		margin-left: 10px;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		color: #ffffde;
+		letter-spacing: 4px;
+	}
+#tagline {
+		font-family: "Times New Roman", Times, Serif;
+		font-style: italic;
+		letter-spacing: 0px;
+	}
+#hornavigation {
+		position: absolute;
+		left: 570px;
+	}
+#hrnav, #bottomnav
+ {
+		list-style-type: none;
+	}
+#hornavigation li {
+		display: block;
+		float: left;
+		margin-top: 35px;
+		margin-left: 60px;
+	}
+
+a.horizontal {
+		text-decoration: none;
+		color: #ffffde;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-size: 22px;
+	}
+a.horizontal:link {
+		color: #ffffde;
+	}
+a.horizontal:visited {
+		color: black;
+	}
+a.horizontal:hover {
+		font-size: 24px;
+		font-family: "Brush Script Std";
+	}
+a.horizontal:active {
+		font-size: 24px;
+		color: #ffffde;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-style: italic;
+	}
+
+nav {
+		margin-top: 280px;
+		margin-left: 70px;
+	}
+.home, .categories, .others, .faqs, .personal {
+		border: 1px solid white;
+		border-top: none;
+	}
+.home { 
+		background: url('../images/iconsprite.png') no-repeat -882px -226px;
+		width: 40px;
+		height: 40px;
+		border-top: 1px solid white;
+		margin-right: 15px;
+		clear: left;
+	}
+.hm :hover {
+		background: url('../images/iconsprite.png') no-repeat -884px -277px;
+	}
+.categories { 
+		background: url('../images/iconsprite.png') no-repeat -837px -226px;
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		clear: left;
+	}
+.ct :hover {
+		background: url('../images/iconsprite.png') no-repeat -837px -277px;
+	}
+.others { 
+		background: url('../images/iconsprite.png') no-repeat -790px -226px;
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		clear: left;
+	}
+.or :hover {
+		background: url('../images/iconsprite.png') no-repeat -790px -277px;
+	}
+.faqs { 
+		background: url('../images/iconsprite.png') no-repeat -744px -226px;
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		clear: left;
+	}
+.fq :hover {
+		background: url('../images/iconsprite.png') no-repeat -744px -277px;
+	}
+.personal { 
+		background: url('../images/iconsprite.png') no-repeat -698px -224px;
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		clear: left;
+	}
+.pr :hover {
+		background: url('../images/iconsprite.png') no-repeat -698px -277px;
+	}
+#title {
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		color: #ffffde;
+		letter-spacing: 4px;
+		font-size:70px;
+	}
+header {
+		float: left;
+		margin-top: -275px;
+		margin-left: 200px;
+	}
+#subtitle {
+		font-family: "Times New Roman";
+		font-style: italic;
+		font-size: 30px;
+	}
+article {
+		float: left;
+		margin-top: 200px;
+		margin-left: 20px;
+		width: 1000px;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-size: 35px;
+		color: #2f2f2f;
+		text-shadow: -3px 3px #fccf3e;
+	}
+#who {
+		font-family: "Times New Roman", Times, Serif;
+		font-size: 22px;
+		color: #2f2f2f;
+		text-shadow: none;
+		text-indent: 50px;
+		margin-top: -40px;
+		width: 900px;
+		text-align: justify;
+	}
+aside {
+		width: 400px;
+		height: 384px;
+		border: 1px solid black;
+		float: right;
+		clear: right;
+		overflow-y: scroll;
+		margin-top: -400px;
+		overflow-x: hidden;
+	}
+#key {
+		width: 100px;
+		height: 80px;
+		float: left;
+	}
+#asideh2 {
+		float: left;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		letter-spacing: 2px;
+		text-shadow: -2px 2px #fccf3e;
+		color: #2f2f2f;
+	}
+#transcend {
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		letter-spacing: 2px;
+		text-shadow: -2px 2px #fccf3e;
+		color: #2f2f2f;
+		font-size: 25px;
+		margin-top: -5px;
+		margin-left: 90px;
+		width: 400px;
+	}
+aside a {
+		text-decoration: none;
+		color: black;
+		font-size: 20px;
+	}
+aside a:hover {
+		text-decoration: underline;
+	}	
+.keys li {
+		clear: left;
+		font-size: 20px;
+	}
+aside p {
+		font-size: 20px;
+	}
+#brain {
+		margin-top:-20px;
+		margin-left: -40px;
+		width: 400px;
+		height: 350px;
+	}
+section {
+		position: absolute;
+		top: 1200px;
+		margin-left: 70px;
+	}
+#jack {
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-size: 55px;
+		color: #2f2f2f;
+		text-shadow: -3px 3px #fccf3e;
+		margin-left: 100px;
+		letter-spacing: 10px;
+}
+#jack span {
+		font-family: "Brush Script Std";
+	}
+#school, #littlems, #heeya{
+		float: left;
+		width: 400px;
+		height: 400px;
+}
+section p {
+		clear: left;
+		font-size: 22px;
+		text-align: justify;
+		margin-top: -120px;
+	}	
+section div {	
+		display: none;
+	}
+section div:target {
+		display: block;
+	}
+section img:hover {
+		height: 470px;
+		width: 470px;
+		border: 1px solid black;
+	}
+#exodus {
+		width: 900px;
+		height: 530px;
+		position: absolute;
+		top: 1900px;
+		left: 250px;
+	}
+
+#explanation {
+		position: absolute;
+		text-indent: 60px;
+		top: 2420px;
+		text-align: justify;
+		padding-left: 25px;
+		padding-right: 25px;
+		font-family: "Times New Roman", Times, Serif;
+		font-size: 22px;
+	}
+#footer {
+		background-color: #2f2f2f;
+		width: 100%;
+		height: 250px;
+		position: absolute;
+		top: 2550px;
+	}
+#navig {
+		padding-top: 40px;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		letter-spacing: 2px;
+		color: #fbb124;
+}
+#bottomnav li {
+		color: #fccf3e;
+		position: relative;
+		left: 30px;
+	}
+.bottom:link{
+		color: #fccf3e;
+		text-decoration: none;
+	}
+.bottom:visited {
+		color: #fbb124;
+	}
+.bottom:hover {
+		text-decoration: underline;
+	}
+.bottom:active {
+		font-size: 18px;
+	}
+#topbutton { 
+		height: 40px;
+		width: 40px;
+}
+#top :hover {
+		height: 45px;
+		width: 45px;
+	}
+#totop {
+		position: absolute;
+		left: 663px;
+		bottom: 220px;
+}
+#btotop {
+		color: #fbb124;
+		text-decoration: none;
+		position: absolute;
+		left: 648px;
+		bottom: 200px;
+}
+#contact {
+		position: absolute;
+		right: 60px;
+		top: 40px;
+}
+#contacts li {
+		list-style-type: none;
+		color: #fccf3e;
+		line-height: 30px;
+		margin: 0;
+		padding: 0;
+}
+#pics {
+		position: absolute;
+		right: 275px;
+		top: 80px; 
+}
+#location {
+		float: left;
+		clear: left;
+		height: 30px;
+		width: 20px;
+		margin-top: 4x;
+	}
+#cp {
+		float: left;
+		clear: left;
+		height:30px;
+		width: 18px;
+		margin-top: 4px;
+	}
+#mail {
+		float: left;
+		clear: left;
+		height:18px;
+		width: 30px;
+		margin-top: 4px;
+	}
+
+.fb { 
+		background: url('../images/iconsprite.png') no-repeat -746px -325px;
+		width: 40px;
+		height: 40px;
+		position: relative;
+		bottom: 185px;
+		left: 613px;
+		float:left;
+	}
+.facebook :hover {
+		background: url('../images/iconsprite.png') no-repeat -884px -328px;
+	}
+.ig { 
+		background: url('../images/iconsprite.png') no-repeat -700px -324px;
+		width: 40px;
+		height: 40px;
+		position: relative;
+		bottom: 185px;
+		left: 623px;
+		float: left;
+	}
+.insta :hover {
+		background: url('../images/iconsprite.png') no-repeat -838px -325px;
+	}
+.twt { 
+		background: url('../images/iconsprite.png') no-repeat -792px -325px;
+		width: 40px;
+		height: 40px;
+		position: relative;
+		bottom: 185px;
+		left: 633px;
+		float: left;
+	}
+.twitter :hover {
+		background: url('../images/iconsprite.png') no-repeat -930px -325px;
+	}
+#copy {
+		position: relative;
+		bottom: 70px;
+		left: 430px;
+		color: #fccf3e;
+}
+#sources ul {
+		list-style-type: none;
+		clear: left;
+		margin: 0;
+		padding: 0;
+}
+#sources {
+		position: relative;
+		left: 500px;
+		bottom: 85px;
+	}
+#sources li,  #sources li a{
+		text-decoration: none;
+		color: #fccf3e;
+		font-family: "Times New Roman", Times, Serif;
+}
+#sources li {
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		letter-spacing: 2px;
+		color: #fbb124;
+}
+ #sources li a:hover {
+		text-decoration: underline;
+	}
+

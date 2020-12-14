@@ -1,0 +1,474 @@
+body {
+		background-image: url("../images/navbg.png");
+		background-attachment: scrolled;
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: 1366px 70px;
+		background-color: #ffffde;
+		overflow-x: hidden;
+	}
+	
+#whole {
+		width: 1366px;
+		left: 50%;
+		margin-left: -683px;
+		position: absolute;
+	}
+#logo {
+		float: left;
+		margin-top: -4px;
+		margin-left: 60px;
+	}
+
+#fish {
+		float: left;
+		margin-top: 20px;
+		margin-left: 10px;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		color: white;
+		letter-spacing: 4px;
+	}
+#tagline {
+		font-family: "Times New Roman", Times, Serif;
+		font-style: italic;
+		letter-spacing: 0px;
+	}
+nav {
+		position: absolute;
+		left: 640px;
+	}
+#navi {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+	}
+.navigate {
+		display: inline;
+		float: left;
+		margin-top: 20px;
+		margin-left: 60px;
+	}
+a.horizontal {
+		text-decoration: none;
+		color: #ffffde;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-size: 22px;
+	}
+a.horizontal:link {
+		color: #ffffde;
+	}
+a.horizontal:visited {
+		color: black;
+	}
+a.horizontal:hover {
+		font-size: 24px;
+		font-family: "Brush Script Std";
+	}
+a.horizontal:active {
+		font-size: 24px;
+		color: #ffffde;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-style: italic;
+	}
+.vernav {
+		margin-top: 160px;
+		margin-left: 20px;
+	}
+.home, .categories, .others, .faqs, .personal {
+		border: 1px solid black;
+		border-top: none;
+	}
+.home { 
+		background: url('../images/iconsprite.png') no-repeat -1113px -226px;
+		width: 40px;
+		height: 40px;
+		border-top: 1px solid black;
+		margin-right: 15px;
+		clear: left;
+	}
+.hm :hover {
+		background: url('../images/iconsprite.png') no-repeat -1113px -277px;
+	}
+.categories { 
+		background: url('../images/iconsprite.png') no-repeat -1066px -226px;
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		clear: left;
+	}
+.ct :hover {
+		background: url('../images/iconsprite.png') no-repeat -1066px -277px;
+	}
+.others { 
+		background: url('../images/iconsprite.png') no-repeat -1020px -226px;
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		clear: left;
+	}
+.or :hover {
+		background: url('../images/iconsprite.png') no-repeat -1020px -277px;
+	}
+.faqs { 
+		background: url('../images/iconsprite.png') no-repeat -974px -226px;
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		clear: left;
+	}
+.fq :hover {
+		background: url('../images/iconsprite.png') no-repeat -974px -277px;
+	}
+.personal { 
+		background: url('../images/iconsprite.png') no-repeat -927px -224px;
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		clear: left;
+	}
+.pr :hover {
+		background: url('../images/iconsprite.png') no-repeat -927px -277px;
+	}
+header {
+		float: left;
+		margin-top: -290px;
+		margin-left: 120px;
+		width: 1000px;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-size: 30px;
+		color: #2f2f2f;
+		text-shadow: -3px 3px #fccf3e;
+	}
+#how, #how a {
+		font-family: "Times New Roman", Times, Serif;
+		font-size: 25px;
+		color: #2f2f2f;
+		text-shadow: none;
+		text-indent: 50px;
+		margin-top: -40px;
+		width: 800px;
+		text-align: justify;
+	}
+#gen {
+		font-style: italic;
+		color: #fbb124;
+	}
+#how b {
+		color: #fbb124;
+		font-size: 33px;
+	}
+#id {
+		position: absolute;
+		z-index: -1;
+		top: 500px;
+		left: 50px;
+		width: 880px;
+		height: 700px;
+	}
+aside {
+		width: 400px;
+		height: 384px;
+		border: 1px solid black;
+		float: right;
+		clear: right;
+		overflow-y: scroll;
+		margin-top: -450px;
+		overflow-x: hidden;
+	}
+#key {
+		width: 100px;
+		height: 80px;
+		float: left;
+	}
+#asideh2 {
+		float: left;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		letter-spacing: 2px;
+		text-shadow: -2px 2px #fccf3e;
+		color: #2f2f2f;
+	}
+#transcend {
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		letter-spacing: 2px;
+		text-shadow: -2px 2px #fccf3e;
+		color: #2f2f2f;
+		font-size: 25px;
+		margin-top: -5px;
+		width: 400px;
+	}
+aside a {
+		text-decoration: none;
+		color: black;
+	}
+aside a:hover {
+		text-decoration: underline;
+	}	
+.keys li {
+		clear: left;
+	}
+#brain {
+		margin-top:-20px;
+		margin-left: -40px;
+		width: 400px;
+		height: 350px;
+	}
+section {
+		clear: left;
+		position: absolute;
+		left: 150px;
+	}
+section div {
+		float: left;
+		background-color: #121212;
+		width: 300px;
+		height: 300px;
+		position: absolute;
+	}
+.questions p {
+		font-family:"Bebas Neue", Arial, Helvetica, sans-serif;
+		font-size: 30px;
+		text-shadow: -2px 2px #fbb124;
+	}
+.answers p {
+		font-family: "Times New Roman", Times, Serif;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+#assess, #a1 {
+		position: absolute;
+		left:100px;
+		top: 200px;
+	}
+#concept, #a2 {
+		position: absolute;
+		left:400px;
+		top: 200px;
+	}
+#hone, #a3 {
+		position: absolute;
+		left:700px;
+		top:200px;
+	}
+#everyone, #a4 {
+		position: absolute;
+		left:100px;
+		top: 500px;
+	}
+#why, #a5 {
+		position: absolute;
+		left:400px;
+		top: 500px;
+	}
+#beyou, #a6 {
+		position: absolute;
+		left:700px;
+		top: 500px;
+	}
+#everyone, #beyou, #concept {
+		background-color: #fccf3e;
+	}
+
+#everyone p, #beyou p, #concept p {
+		color: #121212;
+	}
+section a div p{
+		color: white;
+		text-align: center;
+	}
+.questions:hover {
+		display: none;
+	}
+#a1, #a3, #a5 {
+		color: #121212;
+		background-color: #fccf3a;
+	}
+#a2, #a4, #a6 {
+		color: white;
+		background-color: #121212;
+	}
+.answers {
+		z-index: -1;
+	}
+article {
+		position: absolute;
+		top: 830px;
+		width: 1100px;
+		font-family: "Times New Roman", Times, Serif;
+		font-size: 25px;
+	}
+#tanggapkita	{
+		position: absolute;
+		top: 1330px;
+		left: 530px;
+	}
+#purpose{
+		position: absolute;
+		color: #121212;
+		font-family: "Brush Script Std";
+		font-size: 25px;
+		top: 1380px;
+		left: 260px;
+	}
+footer {
+		background-color: #121212;
+		width: 100%;
+		height: 250px;
+		position: absolute;
+		top: 1450px;
+	}
+#navig {
+		padding-top: 40px;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		letter-spacing: 2px;
+		color: #fbb124;
+}
+#bottomnav li {
+		color: #fccf3e;
+		position: relative;
+		left: 30px;
+		list-style-type: none;
+	}
+.bottom:link{
+		color: #fccf3e;
+		text-decoration: none;
+	}
+.bottom:visited {
+		color: #fbb124;
+	}
+.bottom:hover {
+		text-decoration: underline;
+	}
+.bottom:active {
+		font-size: 18px;
+	}
+#top :hover {
+		height: 45px;
+		width: 45px;
+	}
+#topbutton { 
+		height: 40px;
+		width: 40px;
+}
+#totop {
+		position: absolute;
+		left: 663px;
+		bottom: 220px;
+}
+#btotop {
+		color: #fbb124;
+		text-decoration: none;
+		position: absolute;
+		left: 648px;
+		bottom: 200px;
+}
+#contact {
+		position: absolute;
+		right: 60px;
+		top: 40px;
+}
+#contacts li {
+		list-style-type: none;
+		color: #fccf3e;
+		line-height: 30px;
+		margin: 0;
+		padding: 0;
+}
+#pics {
+		position: absolute;
+		right: 275px;
+		top: 80px; 
+}
+#location {
+		float: left;
+		clear: left;
+		height: 30px;
+		width: 20px;
+		margin-top: 4x;
+	}
+#cp {
+		float: left;
+		clear: left;
+		height:30px;
+		width: 18px;
+		margin-top: 4px;
+	}
+#mail {
+		float: left;
+		clear: left;
+		height:18px;
+		width: 30px;
+		margin-top: 4px;
+	}
+
+.fb { 
+		background: url('../images/iconsprite.png') no-repeat -746px -325px;
+		width: 40px;
+		height: 40px;
+		position: relative;
+		bottom: 220px;
+		left: 613px;
+		float:left;
+	}
+.facebook :hover {
+		background: url('../images/iconsprite.png') no-repeat -884px -328px;
+	}
+.ig { 
+		background: url('../images/iconsprite.png') no-repeat -700px -324px;
+		width: 40px;
+		height: 40px;
+		position: relative;
+		bottom: 220px;
+		left: 623px;
+		float: left;
+	}
+.insta :hover {
+		background: url('../images/iconsprite.png') no-repeat -838px -325px;
+	}
+.twt { 
+		background: url('../images/iconsprite.png') no-repeat -792px -325px;
+		width: 40px;
+		height: 40px;
+		position: relative;
+		bottom: 220px;
+		left: 633px;
+		float: left;
+	}
+.twitter :hover {
+		background: url('../images/iconsprite.png') no-repeat -930px -325px;
+	}
+#copy {
+		position: relative;
+		bottom: 80px;
+		left: 430px;
+		color: #fccf3e;
+}
+#sources ul {
+		list-style-type: none;
+		clear: left;
+		margin: 0;
+		padding: 0;
+}
+#sources {
+		position: relative;
+		left: 500px;
+		bottom: 85px;
+	}
+#sources li,  #sources li a{
+		text-decoration: none;
+		color: #fccf3e;
+		font-family: "Times New Roman", Times, Serif;
+}
+#sources li {
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		letter-spacing: 2px;
+		color: #fbb124;
+}
+ #sources li a:hover {
+		text-decoration: underline;
+		font-size: 16px;
+}
+
+
+
+	

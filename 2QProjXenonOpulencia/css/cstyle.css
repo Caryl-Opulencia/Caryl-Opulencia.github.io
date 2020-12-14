@@ -1,0 +1,456 @@
+body {
+		background-image: url("../images/navbg.png");
+		background-attachment: scrolled;
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: 1366px 70px;
+		background-color: #ffffde;
+		overflow-x: hidden;
+	}
+	
+#whole {
+		width: 1366px;
+		left: 50%;
+		margin-left: -683px;
+		position: absolute;
+	}
+#logo {
+		float: left;
+		margin-top: -4px;
+		margin-left: 60px;
+	}
+
+#fish {
+		float: left;
+		margin-top: 20px;
+		margin-left: 10px;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		color: white;
+		letter-spacing: 4px;
+	}
+#tagline {
+		font-family: "Times New Roman", Times, Serif;
+		font-style: italic;
+		letter-spacing: 0px;
+	}
+#hornavigation {
+		position: absolute;
+		left: 640px;
+	}
+#navi {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+	}
+.navigate {
+		display: inline;
+		float: left;
+		margin-top: 20px;
+		margin-left: 60px;
+	}
+
+a.horizontal {
+		text-decoration: none;
+		color: #ffffde;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-size: 22px;
+	}
+a.horizontal:link {
+		color: #ffffde;
+	}
+a.horizontal:visited {
+		color: black;
+	}
+a.horizontal:hover {
+		font-size: 24px;
+		font-family: "Brush Script Std";
+	}
+a.horizontal:active {
+		font-size: 24px;
+		color: #ffffde;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-style: italic;
+	}
+nav {
+		margin-top: 160px;
+		margin-left: 70px;
+	}
+.home, .categories, .others, .faqs, .personal {
+		border: 1px solid black;
+		border-top: none;
+	}
+.home { 
+		background: url('../images/iconsprite.png') no-repeat -1113px -226px;
+		width: 40px;
+		height: 40px;
+		border-top: 1px solid black;
+		margin-right: 15px;
+		clear: left;
+	}
+.hm :hover {
+		background: url('../images/iconsprite.png') no-repeat -1113px -277px;
+	}
+.categories { 
+		background: url('../images/iconsprite.png') no-repeat -1066px -226px;
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		clear: left;
+	}
+.ct :hover {
+		background: url('../images/iconsprite.png') no-repeat -1066px -277px;
+	}
+.others { 
+		background: url('../images/iconsprite.png') no-repeat -1020px -226px;
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		clear: left;
+	}
+.or :hover {
+		background: url('../images/iconsprite.png') no-repeat -1020px -277px;
+	}
+.faqs { 
+		background: url('../images/iconsprite.png') no-repeat -974px -226px;
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		clear: left;
+	}
+.fq :hover {
+		background: url('../images/iconsprite.png') no-repeat -974px -277px;
+	}
+.personal { 
+		background: url('../images/iconsprite.png') no-repeat -927px -224px;
+		width: 40px;
+		height: 40px;
+		margin-right: 15px;
+		clear: left;
+	}
+.pr :hover {
+		background: url('../images/iconsprite.png') no-repeat -927px -277px;
+	}
+header {
+		float: left;
+		margin-top: -250px;
+		margin-left: 200px;
+		width: 1000px;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-size: 30px;
+		color: #2f2f2f;
+		text-shadow: -3px 3px #fccf3e;
+	}
+#how {
+		font-family: "Times New Roman", Times, Serif;
+		font-size: 25px;
+		color: #2f2f2f;
+		text-shadow: none;
+		text-indent: 50px;
+	}
+#gen {
+		font-style: italic;
+		color: #fbb124;
+	}
+#intro {
+		top: 6px;
+		left: 70px;
+		position: absolute;
+	}
+#empty	{	
+		position: absolute;
+		top: 540px;
+		width: 300px;
+		height: 300px;
+		background-color: #fbb124;
+		z-index: 1;
+	}
+#empty1	{	
+		position: absolute;
+		top: 440px;
+		left: 125px;
+		width: 300px;
+		height: 300px;
+		background-color: #fccf3e;
+	}
+#howard {
+		position: absolute;
+		top: 490px;
+		height: 300px;
+		width: 300px;
+		left: 60px;
+		z-index: 3;
+	}
+#gardner {
+		position: absolute;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-size: 30px;
+		text-shadow: -2px 2px #fccf3e;
+		left: 490px;
+		top: 480px;
+		letter-spacing: 3px;
+	}
+#theory {
+		width: 770px;
+		font-family: "Times New Roman", Times, Serif;
+		font-size: 20px;
+		position: absolute;
+		top: 540px;
+		left: 490px;
+		text-indent: 50px;
+		text-align: justify;
+	}
+#types {
+		float: left;
+		width: 700px;
+		margin-top: 500px;
+		margin-left: 70px;
+}
+.multintel {
+		float: left;
+		width: 550px;
+		margin-top: 680px;
+}
+#multintel {
+		width: 520px;
+		margin-left: 35px;
+	}
+#desc {
+		margin-top: -20px;
+		margin-left: 35px;
+		font-size: 20px;
+		text-indent: 20px;
+		text-align: justify;
+}
+#types li {
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		text-shadow: -2px 2px #fccf3e;
+		font-size: 22px;
+}
+p {
+		font-family: "Times New Roman", Times, Serif;
+		text-shadow: none;
+}
+#mainholder { 
+		width: 1366px;
+		height: 40px;
+		background-color: #fccf3e;
+		position: absolute;
+		top: 2040px;
+	}
+#main {
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-size: 28px;
+		color: #2f2f2f;
+		text-align: center;
+		position: relative;
+		bottom: 14px;
+}
+ul li {
+		list-style-type: none;
+}
+	
+#col1 {
+		position: absolute;
+		width: 600px;
+		top: 2130px;
+}
+#eqaq {
+		float: left;
+		clear: left;
+}
+
+#iq, #eq {
+		position: absolute;
+		left: 350px; 
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-size: 20px;
+	}
+
+#sq, #aq {
+		position: absolute;
+		left: 370px; 
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		font-size: 20px;
+	}
+#iq, #sq {
+		top: 40px;
+	}
+#eq, #aq {
+		top: 250px;
+	}
+
+#col2 {
+		position: absolute;
+		left: 630px;
+		width: 600px;
+		top: 2130px;
+	}
+.multi1, .multi2 {
+		height: 200px;
+		width: 200px;
+		float: left;
+		margin-left: 90px;
+	}
+
+footer {
+		background-color: #2f2f2f;
+		width: 100%;
+		height: 250px;
+		position: absolute;
+		top: 2650px;
+	}
+#navig {
+		padding-top: 40px;
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		letter-spacing: 2px;
+		color: #fbb124;
+}
+#bottomnav li {
+		color: #fccf3e;
+		position: relative;
+		left: 30px;
+	}
+.bottom:link{
+		color: #fccf3e;
+		text-decoration: none;
+	}
+.bottom:visited {
+		color: #fbb124;
+	}
+.bottom:hover {
+		text-decoration: underline;
+	}
+.bottom:active {
+		font-size: 18px;
+	}
+#top :hover {
+		height: 45px;
+		width: 45px;
+	}
+#topbutton { 
+		height: 40px;
+		width: 40px;
+}
+#totop {
+		position: absolute;
+		left: 663px;
+		bottom: 220px;
+}
+#btotop {
+		color: #fbb124;
+		text-decoration: none;
+		position: absolute;
+		left: 648px;
+		bottom: 200px;
+}
+#contact {
+		position: absolute;
+		right: 60px;
+		top: 40px;
+}
+#contacts li {
+		list-style-type: none;
+		color: #fccf3e;
+		line-height: 30px;
+		margin: 0;
+		padding: 0;
+}
+#pics {
+		position: absolute;
+		right: 275px;
+		top: 80px; 
+}
+#location {
+		float: left;
+		clear: left;
+		height: 30px;
+		width: 20px;
+		margin-top: 4x;
+	}
+#cp {
+		float: left;
+		clear: left;
+		height:30px;
+		width: 18px;
+		margin-top: 4px;
+	}
+#mail {
+		float: left;
+		clear: left;
+		height:18px;
+		width: 30px;
+		margin-top: 4px;
+	}
+
+.fb { 
+		background: url('../images/iconsprite.png') no-repeat -746px -325px;
+		width: 40px;
+		height: 40px;
+		position: relative;
+		bottom: 220px;
+		left: 613px;
+		float:left;
+	}
+.facebook :hover {
+		background: url('../images/iconsprite.png') no-repeat -884px -328px;
+	}
+.ig { 
+		background: url('../images/iconsprite.png') no-repeat -700px -324px;
+		width: 40px;
+		height: 40px;
+		position: relative;
+		bottom: 220px;
+		left: 623px;
+		float: left;
+	}
+.insta :hover {
+		background: url('../images/iconsprite.png') no-repeat -838px -325px;
+	}
+.twt { 
+		background: url('../images/iconsprite.png') no-repeat -792px -325px;
+		width: 40px;
+		height: 40px;
+		position: relative;
+		bottom: 220px;
+		left: 633px;
+		float: left;
+	}
+.twitter :hover {
+		background: url('../images/iconsprite.png') no-repeat -930px -325px;
+	}
+#copy {
+		position: relative;
+		bottom: 80px;
+		left: 410px;
+		color: #fccf3e;
+}
+#sources ul {
+		list-style-type: none;
+		clear: left;
+		margin: 0;
+		padding: 0;
+}
+#sources {
+		position: relative;
+		left: 500px;
+		bottom: 85px;
+	}
+#sources li,  #sources li a{
+		text-decoration: none;
+		color: #fccf3e;
+		font-family: "Times New Roman", Times, Serif;
+}
+#sources li {
+		font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+		letter-spacing: 2px;
+		color: #fbb124;
+}
+ #sources li a:hover {
+		text-decoration: underline;
+		font-size: 16px;
+}
+
+
+
+	
