@@ -2,14 +2,14 @@ body {
 		background-image: url("../images/bgpic.png");
 		background-attachment: scrolled;
 		background-repeat: no-repeat;
-		background-clip: border-box;
+		background-position: center top;
 		background-size: 1366px 765px;
 		background-color: #ffffde;
 		overflow-x: hidden;
 	}
 
 #whole {
-		width: 1366px;
+		width: 1000px;
 		left: 50%;
 		margin-left: -683px;
 		right: 0;
