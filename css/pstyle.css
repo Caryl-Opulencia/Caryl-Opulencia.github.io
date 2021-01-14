@@ -293,6 +293,8 @@ section {
 		padding: 55px;
 }
 .sprite {
+		top: 1860px;
+		left: 450px;
 		background: url('../images/iam.png') no-repeat -107px -126px;
 		width: 24px;
  		height: 34px;
