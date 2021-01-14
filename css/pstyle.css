@@ -251,13 +251,13 @@ section {
   		transform-style: preserve-3d;
 }
 .flip:hover .flip-card {
- 		transform: scale(0.5) rotateY(180deg);
+ 		transform: scale(1.2) rotateY(180deg);
 }
 .flip-image, .flip-explain {
 	  	position: absolute;
   		-webkit-backface-visibility: hidden;
   		backface-visibility: hidden;
-}*/
+}
 .flip-image img {
 		width: 400px;
 		height: 400px;
@@ -270,7 +270,7 @@ section {
   		color: black;
 		font-size: 16px;
 		text-align: justify;
-		transform: scale(1) rotateY(180deg);
+		transform: scale(1.2) rotateY(180deg);
 }
 .flip-explain p {
 		padding: 52px;
