@@ -239,13 +239,13 @@ section {
 .flip {
   		background-color: transparent;
  		float: left;
-		width: 450px;
-		height: 450px;
+		width: 400px;
+		height: 400px;
  		perspective: 1000px;
 }
 .flip-card {
-  		width: 450px;
-		height: 450px;
+  		width: 400px;
+		height: 400px;
   		text-align: center;
   		transition: transform 0.8s ease-out;
   		transform-style: preserve-3d;
@@ -255,15 +255,17 @@ section {
 }
 .flip-image, .flip-explain {
 	  	position: absolute;
-  		width: 450px;
-		height: 450px;
   		-webkit-backface-visibility: hidden;
   		backface-visibility: hidden;
 }
+.flip-image img {
+		width: 400px;
+		height: 400px;
+}
 .flip-explain {
 		border-radius: 50%;
-		width: 450px;
-		height: 450px;
+		width: 400px;
+		height: 400px;
  		background-color: #fccf3e;
   		color: black;
 		font-size: 21px;
