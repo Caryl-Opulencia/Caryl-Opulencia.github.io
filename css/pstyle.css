@@ -268,9 +268,12 @@ section {
 		height: 400px;
  		background-color: #fccf3e;
   		color: black;
-		font-size: 21px;
+		font-size: 20px;
 		text-align: justify;
 		transform: rotateY(180deg);
+}
+.flip-explain p {
+		padding: 15px;
 }
 #exodus {
 		width: 900px;
