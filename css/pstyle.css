@@ -251,7 +251,7 @@ section {
   		transform-style: preserve-3d;
 }
 .flip:hover .flip-card {
- 		transform: rotateY(180deg);
+ 		transform: scale(0.4) rotateY(180deg);
 }
 .flip-image, .flip-explain {
 	  	position: absolute;
@@ -270,10 +270,10 @@ section {
   		color: black;
 		font-size: 20px;
 		text-align: justify;
-		transform: rotateY(180deg);
+		transform: scale(0.4) rotateY(180deg);
 }
 .flip-explain p {
-		padding: 15px;
+		padding: 40px;
 }
 #exodus {
 		width: 900px;
