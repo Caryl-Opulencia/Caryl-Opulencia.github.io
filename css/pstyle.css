@@ -292,6 +292,18 @@ section {
 .flip-explain p {
 		padding: 55px;
 }
+.sprite {
+		background: url('../images/iam.jpg') no-repeat -107px -126px;
+		width: 24px;
+ 		height: 34px;
+ 		animation: varName 2s steps(5) infinite;
+}
+@keyframes varName{
+ 		from{background-position-x:-107px;}
+ 		to{background-position-x:-649px;}
+}
+
+}
 #exodus {
 		width: 900px;
 		height: 530px;
