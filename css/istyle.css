@@ -20,6 +20,10 @@ body {
 		margin-top: 16px;
 		margin-left: 60px;
 	}
+::selection {
+		background-color: #fccf3e;
+		color: #ffffde;
+}
 
 #fish {
 		float: left;
