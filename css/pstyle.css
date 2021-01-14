@@ -293,14 +293,14 @@ section {
 		padding: 55px;
 }
 .sprite {
-		background: url('../images/iam.jpg') no-repeat -107px -126px;
+		background: url('../images/iam.png') no-repeat -107px -126px;
 		width: 24px;
  		height: 34px;
  		animation: type 2s steps(5) infinite;
 }
 @keyframes type{
  		from{background-position-x:-107px;}
- 		to{background-position-x:-649px;}
+ 		to{background-position-x:-649px;}		
 }
 #exodus {
 		width: 900px;
@@ -313,10 +313,10 @@ section {
 		animation: shake 0.5s infinite;
 }
 @keyframes shake {
-		0% { transform: translate(1px, 1px) rotate(0deg); }
-  		30% { transform: translate(3px, 2px) rotate(0deg); }
- 		60% { transform: translate(-3px, 1px) rotate(0deg); }
-  		100% { transform: translate(1px, -2px) rotate(-1deg); }
+		0% { transform: translate(1px, 1px) scale(1.05) rotate(1deg); }
+  		30% { transform: translate(3px, 2px) scale(1) rotate(-1deg); }
+ 		60% { transform: translate(-3px, 1px) scale(1.05) rotate(1deg); }
+  		100% { transform: translate(1px, -2px) scale(1) rotate(-1deg); }
 }
 
 #explanation {
