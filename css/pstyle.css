@@ -255,8 +255,8 @@ section {
 }
 .flip-image, .flip-explain {
 	  	position: absolute;
-  		width: 100%;
-  		height: 100%;
+  		width: 450px;
+		height: 450px;
   		-webkit-backface-visibility: hidden;
   		backface-visibility: hidden;
 }
