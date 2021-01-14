@@ -243,21 +243,35 @@ section {
 		height: 400px;
  		perspective: 1000px;
 }
-.flip-card {
+.flip:hover .flip-card {
   		width: 400px;
 		height: 400px;
   		text-align: center;
-  		transition: transform 0.8s ease-out;
+  		 animation: flip-scale-down-diag-2 0.5s linear both;
+}
+@keyframes flip-scale-down-diag-2 {
+  		0% {
+    			transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+  		}
+  		50% {
+    			transform: scale(0.4) rotate3d(-1, 1, 0, -90deg);
+  		}
+  		100% {
+    			transform: scale(1) rotate3d(-1, 1, 0, -180deg);
+  		}
+}
+
+		/*transition: transform 0.8s ease-out;
   		transform-style: preserve-3d;
 }
 .flip:hover .flip-card {
- 		transform: scale(0.4) rotateY(180deg);
+ 		transform: scale(0.5) rotateY(180deg);
 }
 .flip-image, .flip-explain {
 	  	position: absolute;
   		-webkit-backface-visibility: hidden;
   		backface-visibility: hidden;
-}
+}*/
 .flip-image img {
 		width: 400px;
 		height: 400px;
@@ -268,12 +282,12 @@ section {
 		height: 400px;
  		background-color: #fccf3e;
   		color: black;
-		font-size: 20px;
+		font-size: 18px;
 		text-align: justify;
-		transform: scale(0.4) rotateY(180deg);
+		/*transform: scale(0.5) rotateY(180deg);*/
 }
 .flip-explain p {
-		padding: 40px;
+		padding: 50px;
 }
 #exodus {
 		width: 900px;
