@@ -15,6 +15,10 @@ body {
 		right: 0;
 		position: absolute;
 	}
+::selection {
+		background-color: #fccf3e;
+		color: #ffffde;
+}
 #logo {
 		float: left;
 		margin-top: 16px;
@@ -273,7 +277,7 @@ section {
 		transform: scale(1.05) rotateY(180deg);
 }
 .flip-explain p {
-		padding: 52px;
+		padding: 55px;
 }
 #exodus {
 		width: 900px;
