@@ -292,18 +292,6 @@ section {
 .flip-explain p {
 		padding: 55px;
 }
-.sprite {
-		top: 1860px;
-		left: 450px;
-		background: url('../images/iam.png') no-repeat -107px -126px;
-		width: 24px;
- 		height: 34px;
- 		animation: type 2s steps(5) infinite;
-}
-@keyframes type{
- 		from{background-position-x:-107px;}
- 		to{background-position-x:-649px;}		
-}
 #exodus {
 		width: 900px;
 		height: 530px;
