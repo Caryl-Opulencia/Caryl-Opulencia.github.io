@@ -223,7 +223,12 @@ aside p {
 		margin-left: -40px;
 		width: 400px;
 		height: 350px;
+		tranform: scale(1);
+		transition: transform 0.5s ease;
 	}
+figure:hover #brain {
+		transform: scale(1.1);
+}
 section {
 		position: absolute;
 		top: 1200px;
@@ -255,7 +260,11 @@ section {
   		transform-style: preserve-3d;
 }
 .flip:hover .flip-card {
- 		transform: scale(1.05) rotateY(180deg);
+		-webkit-transform: scale(1.05) rotateY(180deg);
+		-ms-transform: scale(1.05) rotateY(180deg);
+		-mos-transform: scale(1.05) rotateY(180deg);
+		-o-transform: scale(1.05) rotateY(180deg);
+		transform: scale(1.05) rotateY(180deg);
 }
 .flip-image, .flip-explain {
 	  	position: absolute;
@@ -274,6 +283,10 @@ section {
   		color: black;
 		font-size: 15px;
 		text-align: justify;
+		-webkit-transform: scale(1.05) rotateY(180deg);
+		-ms-transform: scale(1.05) rotateY(180deg);
+		-mos-transform: scale(1.05) rotateY(180deg);
+		-o-transform: scale(1.05) rotateY(180deg);
 		transform: scale(1.05) rotateY(180deg);
 }
 .flip-explain p {
